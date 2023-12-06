@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 After sharing my initial solution i got some feedback on areas i could improve. So below are some changes i made on the second commit.
 #### HTML
 - Changed the `.container` from `<div>` to a `<main>` so the document has a landmark element. [Resource](https://dequeuniversity.com/rules/axe/4.6/landmark-one-main?application=axeAPI)
-- I initially had a <h2> and a <h4>. Changed those to <h1> and <p> respectively. [Resource](https://dequeuniversity.com/rules/axe/4.6/heading-order?application=axeAPI)
+- I initially had a `<h2>` and a `<h4>`. Changed those to `<h1>` and `<p>` respectively. [Resource](https://dequeuniversity.com/rules/axe/4.6/heading-order?application=axeAPI)
 - Updated the `alt` text of the image to be more descriptive.
 
 #### CSS
