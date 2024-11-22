@@ -3,56 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Component</title>
+    <link rel="stylesheet" href="/styles.css" />
+
     <meta name="author" content="Darkstar" />
     <meta
       name="description"
-      content="Darkstar's solution for the QR Code Component challenge on frontendmentor.io"
+      content="Check out Darkstar's solution for the QR Code Component challenge on Frontend Mentor"
     />
-
-    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Check out Darkstar's solution for the QR Code Component challenge on Frontend Mentor"
+    />
     <meta
       property="og:url"
       content="https://qr-code-component-darkstarxdd.vercel.app/"
     />
-    <meta property="og:title" content="QR Code Component - Frontend Mentor" />
-    <meta
-      property="og:description"
-      content="Darkstar's solution for the QR Code Component challenge on frontendmentor.io"
-    />
     <meta
       property="og:image"
-      content="https://qr-code-component-darkstarxdd.vercel.app/images/screenshot_desktop.jpeg"
+      content="https://qr-code-component-darkstarxdd.vercel.app/public/og-img.jpeg"
     />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="QR Code Component - Frontend Mentor" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1440" />
-    <meta property="og:image:height" content="800" />
+    <meta property="og:image:height" content="756" />
 
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="/public/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <title>QR Code Component</title>
   </head>
 
   <body>
-    <main class="card">
-      <img
-        class="card-img"
-        src="./images/image-qr-code.png"
-        alt="qr code leads to frontendmentor.io"
-      />
+    <main>
+      <div class="card">
+        <h1 class="visually-hidden">QR Code Component</h1>
+        <img
+          src="/assets/images/image-qr-code.png"
+          alt="qr code leads to frontendmentor.io"
+          width="576"
+          height="576"
+          class="card-img"
+        />
 
-      <div class="card-content">
-        <h1 class="card-content__heading">
-          Improve your front-end skills by building projects
-        </h1>
-        <p class="card-content__text">
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
-        </p>
+        <div class="card-content">
+          <h2 class="card-content__heading text-preset-1">
+            Improve your front-end skills by building projects
+          </h2>
+          <p class="card-content__text text-preset-2">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
       </div>
     </main>
   </body>
