@@ -38,7 +38,7 @@ This is my solution to the [QR Code Component](https://www.frontendmentor.io/cha
 - Zoomed the page in and out using Ctrl + Scroll wheel (up to 500%).
 - Tested with the NVDA screen reader.
 - Viewed the site on an iPhone 11 in both portrait and landscape modes.
-- Performed Lighthouse and PageSpeed tests. ([PageSpeed Result.](pagespeed-url-goes-here))
+- Performed Lighthouse and PageSpeed tests. ([PageSpeed Result.](https://pagespeed.web.dev/analysis/https-qr-code-component-darkstarxdd-vercel-app/ogb9j52u0x?form_factor=mobile))
 
 #
 
